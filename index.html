@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="snap-gaming-300-250" content="width=300,height=250" />
+		<script type="text/javascript">
+			var clickTag = "https://www.qualcomm.com/de/snapdragon#gaming"
+		</script>
+
 		<style>
 			.sd-gaming-300-250 {
 				width: 300px;
@@ -59,7 +64,12 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 	</head>
 	<body>
-		<div class="sd-gaming-300-250" width="300" height="250">
+		<a
+			href="javascript:window.open(window.clickTag)"
+			class="sd-gaming-300-250"
+			width="300"
+			height="250"
+		>
 			<img
 				class="top-text"
 				src="https://assets.codepen.io/1253946/gaming-300-250-top-text.png"
@@ -92,7 +102,7 @@
 				src="https://assets.codepen.io/1253946/gaming-300-250-image.jpg"
 				alt=""
 			/>
-		</div>
+		</a>
 	</body>
 	<script>
 		const sdGaming300x250Animate = () => {
